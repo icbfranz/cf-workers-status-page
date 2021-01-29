@@ -26,5 +26,5 @@ monitors:
     name: help.ictoxlab.com
     url: 'https://help.ictoxlab.com'
     method: GET
-    expectStatus: 200
+    expectStatus: 302
     followRedirect: true # should follow
