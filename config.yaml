@@ -30,8 +30,8 @@ monitors:
     method: GET
     expectStatus: 200
 
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+  - id: www-ictoxlab-com
+    name: IC Tox Lab
+    url: 'https://ictoxlab.com/'
     method: GET
     expectStatus: 200
