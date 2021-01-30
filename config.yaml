@@ -31,7 +31,7 @@ monitors:
     
   - id: mytoxlabsso
     name: MyToxLab SSO
-    url: 'https://login.microsoftonline.com/a352cf2e-213f-4d2a-9df8-3919c48dcc20/oauth2/authorize?client_id=4bc62057-399e-4829-b7b7-93f56baf530c'
+    url: 'https://login.microsoftonline.com/a352cf2e-213f-4d2a-9df8-3919c48dcc20/oauth2/authorize?response_type=code&scope=openid&domain_hint=https%3A%2F%2Fictoxlab.com&client_id=d2b2969d-001d-4cf3-b89b-7f3a56494c8b&resource=https%3A%2F%2Fgraph.microsoft.com&redirect_uri=https%3A%2F%2Fictoxlab.com%2Flogin%2F&state=%7B77B8A5C1-000A-4570-5957-9CAA78C192F7%7D&nonce=%7B77B8A5C1-000A-4570-5957-9CAA78C192F7%7D&sso_reload=true'
     method: GET
     expectStatus: 200
     followRedirect: true # should follow
