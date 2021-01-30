@@ -45,7 +45,7 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
     <div className="min-h-screen">
       <Head>
         <title>{config.settings.title}</title>
-        <link rel="stylesheet" href="https://use.typekit.net/jzs1ced.css">
+        <link rel="stylesheet" href="https://use.typekit.net/jzs1ced.css" />
         <link rel="stylesheet" href="./style.css" />
         <script>
           {`
