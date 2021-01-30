@@ -1,6 +1,6 @@
 settings:
   title: 'IC Tox Lab System Status'
-  url: 'https://https://status.ictoxlab.com/' # used for Slack messages
+  url: 'https://status.ictoxlab.com/' # used for Slack messages
   logo: logo-color.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
