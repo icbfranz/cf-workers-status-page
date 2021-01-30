@@ -65,4 +65,9 @@
   .tooltip:hover .content {
     @apply visible opacity-100 scale-100;
   }
+  
+  h1 {
+    font:Europa-Bold;
+    font-weight: 800 !important;
+  }
 }
