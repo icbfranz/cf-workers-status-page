@@ -22,7 +22,7 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
 
-  - id: www-help-ictoxlab.com
+  - id: www-help-ictoxlab-com
     name: help.ictoxlab.com
     url: 'https://help.ictoxlab.com'
     method: GET
@@ -35,3 +35,10 @@ monitors:
     method: GET
     expectStatus: 200
     followRedirect: true # should follow
+    
+  - id: simple-in-out
+    name: Simple In/Out
+    url: 'https://www.simpleinout.com/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false # should follow
