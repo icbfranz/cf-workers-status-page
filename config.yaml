@@ -1,5 +1,5 @@
 settings:
-  title: 'IC Tox Lab System Status'
+  title: 'System Status'
   url: 'https://status.ictoxlab.com/' # used for Slack messages
   logo: logo-color.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
@@ -39,6 +39,13 @@ monitors:
   - id: simple-in-out
     name: Simple In/Out
     url: 'https://www.simpleinout.com/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false # should follow
+   
+  - id: adv-tech
+    name: advtech.ictoxlab.com
+    url: 'https://advtech.ictoxlab.com/'
     method: GET
     expectStatus: 200
     followRedirect: false # should follow
